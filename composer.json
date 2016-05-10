@@ -1,0 +1,31 @@
+{
+    "name": "ameech/alexandria",
+    "description": "Base PDO data layer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Meech",
+            "homepage": "https://github.com/ameech"
+        }
+    ],
+    "require": {
+        "aura/sql": "^2.5",
+        "aura/sqlquery": "^2.6",
+        "equip/data": "^2.3",
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alexandria\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AlexandriaTests\\": "tests/"
+        }
+    }
+}
